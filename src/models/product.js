@@ -28,10 +28,10 @@ const productSchema = new Schema({
         type: Number,
         required: true
     },
-    // category: {
-    //     type: ObjectId,
-    //     ref: "category"
-    // }
+    category: {
+        type: ObjectId,
+        ref: "category"
+    }
 
 }, {timestamps: true})
 
